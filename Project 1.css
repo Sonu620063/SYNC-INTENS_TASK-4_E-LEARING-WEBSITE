@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    list-style:none ; 
+    margin: 1px;
+    padding: 0px;  
+}
+header{
+    padding: 50px;
+    text-align: center;
+    background: rgb(8, 70, 70);
+    /*greenish backgruond*/
+    color: antiquewhite;
+    /*white text color*/
+}
+header h1{
+    font-size: 40px;
+}
+header h4{
+    font-size: 20px;
+    text-align: right;
+}
+nav{
+    border: #381e1e;
+    overflow: hidden;
+}
+nav a {
+    display: block;
+    margin: 2.2px;
+    text-transform: uppercase;
+    padding: 20px;
+    color: rgb(16, 28, 29);
+    text-decoration: none;
+    background: rgba(3, 77, 80, 0.308);
+    padding: 12px 94px;
+    
+    float: left;
+
+}
+section h2{
+        padding: 18px;
+        text-align: center;
+        background-color: rgb(5, 119, 85);
+}
+section h1{
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(29, 54, 46);
+}
+video {
+    padding: 3px;
+    margin: 8px;
+    background-color:black;
+}
+footer a{
+    display: block;
+    color: white;
+    padding: 8px;
+    font-size: 20px;  
+    text-align: center;
+    text-decoration: none; 
+    background-color: black;
+}
+
+
+/*---------------------custom scrollerbar------------*/
+::-webkit-scrollbar{
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track{
+    background: #d1e5ff;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(#642bff, #ff22e6);
+    border-radius: 5px;
+  }
